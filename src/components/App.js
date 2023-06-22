@@ -6,7 +6,7 @@ const App = () => {
   return (
     <div id="main">
       <h1 className={styles.success}>Success</h1>
-      <h1 id="error" style={{ color: "red" }}>
+      <h1 id="error" style={{ color: "red", fontSize: "50px" }}>
         Error
       </h1>
     </div>
